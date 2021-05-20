@@ -2,6 +2,10 @@
   width: 60px;
   height: 60px;
 }
+*{
+  margin:0;
+  padding: 0;
+}
 .MuiCardContent-root {
   display: display;
   flex-direction: column;
@@ -28,17 +32,14 @@
   color: rgba(255, 0, 0, 0.6);
 }
 .highPrice {
-  color: rgba(0, 255, 0, 0.6);
+  color: rgba(47, 214, 47, 0.705);
 }
 h6{
-  margin:0;
+  
   font-weight: 500;
 }
 
-h4,h3{
-  margin:0;
-  
-}
-h5{
-  padding:0
+h2{
+  color: rgb(117, 117, 190);
+  font-size:20px;
 }

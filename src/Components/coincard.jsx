@@ -21,9 +21,9 @@ export default function CoinCard({
             <img src={image} alt=""></img>
             <br />
             <Typography variant="inherit" color="textPrimary" gutterBottom>
-              {name}
+              <h2>{name}</h2>
             </Typography>
-            <br />
+            
             <Typography variant="inherit" gutterBottom>
               $
               <Countup start={0} end={price} duration={1.6} separator="," />
