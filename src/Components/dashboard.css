@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+  }
+.coin-card{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+  
+}
+.coin-input {
+    padding-left: 16px;
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
+   
+    color: #e2e2e2;
+    margin: 2.2rem;
+  }
+  ::placeholder {
+   font-family: 'Poppins', sans-serif;
+  }
+  .coin-input::placeholder {
+    color: #292929;
+    
+  }
+  .Search-bar{
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+  }
+ h1{
+   margin: 0;
+ }
+  .footer{
+    position: static;
+    bottom: 20px;
+    left: 50%;
+    color:white
+  }
+  @media only screen and (max-width: 770px) {
+    .coin-input {
+    
+    
+      width: 200px;
+      height:30px;
+     
+    }
+    .coin-text{
+      font-size:30px;
+      
+    }
+  }

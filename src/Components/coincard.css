@@ -1,0 +1,44 @@
+* img {
+  width: 60px;
+  height: 60px;
+}
+.MuiCardContent-root {
+  display: display;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  color: #000;
+  background-color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.MuiPaper-root {
+  margin: 0.2rem;
+}
+
+.MuiPaper-root:hover {
+  transform: scale(1.09);
+  box-shadow: 
+  5px 5px 10px #000000, 
+   -5px -5px 10px #000000;
+}
+.lowPrice {
+  color: rgba(255, 0, 0, 0.6);
+}
+.highPrice {
+  color: rgba(0, 255, 0, 0.6);
+}
+h6{
+  margin:0;
+  font-weight: 500;
+}
+
+h4,h3{
+  margin:0;
+  
+}
+h5{
+  padding:0
+}
