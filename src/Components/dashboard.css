@@ -2,6 +2,7 @@ body{
     background-color: black;
     font-family: 'Poppins', sans-serif;
   }
+
 .coin-card{
     display:flex;
     flex-direction: column;
@@ -10,21 +11,19 @@ body{
   
 }
 .coin-input {
+  font-family: 'Poppins', sans-serif;
     padding-left: 16px;
     width: 300px;
     height: 30px;
     border-radius: 4px;
-   
-    color: #e2e2e2;
     margin: 2.2rem;
+    color:#000
   }
   ::placeholder {
    font-family: 'Poppins', sans-serif;
+   
   }
-  .coin-input::placeholder {
-    color: #292929;
-    
-  }
+
   .Search-bar{
       display:flex;
       flex-direction: column;
@@ -40,6 +39,7 @@ body{
     left: 50%;
     color:white
   }
+
   @media only screen and (max-width: 770px) {
     .coin-input {
     
